@@ -1,0 +1,99 @@
+:root {
+	--font: "Montserrat", sans-serif;
+	--font: "Inter", sans-serif;
+	--ms-font: "JetBarins Mono", monospace;
+	--ms-font: "Consolas", monospace;
+
+	--bg-dark: #0f121b;
+	--bg-light: #ced7f5;
+	--primary: #146afe;
+	--accent: #2b79ff;
+	--dark-gray: #50515a;
+	--gray: #a0a4c0;
+	--bright: #e9e9e9;
+	--green: #57F287;
+	--red: #ED4245;
+}
+
+body {
+	--accent-h: 218;
+ 	--accent-s: 99%;
+  	--accent-l: 54%;
+	
+	--radius-s: 3px;
+	--radius-m: 5px;
+	--radius-l: 5px;
+	--input-radius: 3px;
+	--tab-radius-active: 2px;
+	--checkbox-radius:2px;
+	--toggle-radius: 15px;
+	--toggle-thumb-radius: 15px;
+	--slider-thumb-radius: 15px;
+
+	--default-font: var(--font);
+	--font-monospace: var(--ms-font);
+
+	--background-modifier-hover: var(--primary);
+}
+
+.theme-dark {
+	--background-primary: var(--bg-dark);
+	--background-secondary: var(--bg-dark);
+	--background-modifier-success: var(--green);
+	--background-modifier-error: var(--red);
+	--background-modifier-message: var(--primary);
+
+	--text-normal: var(--bright);
+  	--text-faint: var(--gray);
+  	--text-muted: var(--gray);
+
+	--h1-color: var(--bright);
+	--h2-color: var(--bright);
+	--h3-color: var(--bright);
+	--h4-color: var(--bright);
+	--h5-color: var(--bright);
+	--h6-color: var(--bright);
+
+	--tag-color: var(--accent);
+  }
+  
+  .theme-light {
+	--background-primary: var(--bg-light);
+	--background-secondary: var(--bg-light);
+	--background-modifier-border: var(--gray);
+  	--background-modifier-border-focus: var(--dark-gray);
+  	--background-modifier-border-hover: var(--dark-gray);
+	--background-modifier-success: var(--green);
+	--background-modifier-error: var(--red);
+	--background-modifier-message: var(--primary);
+
+	--text-normal: var(--bg-dark);
+  	--text-faint: var(--dark-gray);
+  	--text-muted: var(--dark-gray);
+
+	--h1-color: var(--bg-dark);
+	--h2-color: var(--bg-dark);
+	--h3-color: var(--bg-dark);
+	--h4-color: var(--bg-dark);
+	--h5-color: var(--bg-dark);
+	--h6-color: var(--bg-dark);
+
+	--tag-color: var(--primary);
+	--tag-background: var(--bg-dark);
+  }
+
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
