@@ -7,7 +7,7 @@
 ### Installation Guide
 > Follow these steps to install the Iridescent Theme:
 1. Download the files
-    - Go to the [latest release page]().
+    - Go to the [release page](https://github.com/vesnex/obsidian-iridescent/releases) and select the latest version.
     - Download the `manifest.json` and `theme.css` files.
 2. Navigate to Your Vault Directory
     - Open the file explorer and locate your Obsidian Vault directory.
