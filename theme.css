@@ -55,9 +55,9 @@ body {
 	--h6-color: var(--bright);
 
 	--tag-color: var(--accent);
-  }
+}
   
-  .theme-light {
+.theme-light {
 	--background-primary: var(--bg-light);
 	--background-secondary: var(--bg-light);
 	--background-modifier-border: var(--gray);
@@ -80,7 +80,7 @@ body {
 
 	--tag-color: var(--primary);
 	--tag-background: var(--bg-dark);
-  }
+}
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
