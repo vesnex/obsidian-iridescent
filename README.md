@@ -1,3 +1,4 @@
+# ⚠️ This repository is no longer managed and is archived.
 # Iridescent Theme for [Obsidian.md](https://obsidian.md/)
 ### Dark Mode
 ![Dark Mode](/dark.png)
